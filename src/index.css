@@ -1,0 +1,133 @@
+/* Updated styles to resemble Apple Health app */
+
+/* style for body */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'San Francisco', Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0; /* Use Apple Health app's background color */
+  color: #333; /* Use Apple Health app's text color */
+}
+
+/* style root div */
+#root {
+  width: 80%;
+  background-color: #fff; /* Use Apple Health app's background color */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* style navbar component */
+.navbar {
+  align-items: center;
+  display: flex;
+  height: 80px; /* Reduce the height to match Apple Health app's header */
+  padding: 0px 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd; /* Use a lighter border color */
+  background-color: #fff; /* Use Apple Health app's background color */
+}
+
+.right-nav h5 {
+  color: #555; /* Use a slightly darker text color */
+}
+
+.addhabit-btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #0070c9; /* Use Apple Health app's primary color */
+  padding: 8px 20px;
+  border-radius: 7px;
+}
+
+/* Updated modal styles to match Apple Health app */
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Updated habit component styles */
+
+.habit {
+  width: 100%;
+  height: 80px; /* Reduce the height to match Apple Health app's habit item */
+  border-bottom: 1px solid #ddd; /* Use a lighter border color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #fff; /* Use Apple Health app's background color */
+}
+
+.habit:hover {
+  background-color: #f0f0f0; /* Use a lighter background color on hover */
+}
+
+.habit-left i {
+  color: #0070c9; /* Use Apple Health app's primary color */
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f0f0f0; /* Use a lighter background color */
+  margin-right: 10px;
+}
+
+.day-complete {
+  color: #555; /* Use a slightly darker text color */
+  font-size: small;
+}
+
+.log-btn {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #f0f0f0; /* Use a lighter background color */
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: #555; /* Use a slightly darker text color */
+  border: none;
+}
+
+.log-btn:hover {
+  color: #333; /* Use a slightly darker text color on hover */
+}
+
+.fa-trash {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #f0f0f0; /* Use a lighter background color */
+}
+
+/* Updated week view container styles */
+
+.days-container {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Updated day view component styles */
+
+.day-container {
+  height: 80px; /* Reduce the height to match Apple Health app's day item */
+  width: 150px;
+  background-color: #fff; /* Use Apple Health app's background color */
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.circle-icon {
+  font-size: 24px;
+  margin: 5px 11px;
+  color: #0070c9; /* Use Apple Health app's primary color */
+  cursor: pointer;
+}
+
+.active {
+  color: #0070c9; /* Use Apple Health app's primary color for active elements */
+}
